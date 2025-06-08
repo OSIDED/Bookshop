@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin:0;
+    }
+    
+       
+    
+    .topnav{
+        background-color:#FFFBDF;
+        height:60px;
+        border:1px solid black;
+        outline:1px double black;
+        outline-offset: -5px;
+    }
+    .topnav a {
+        padding:20px 15px;
+        float:left;
+        text-decoration:none;
+    }
+    .topnav ul{
+        list-style-type:none;
+    }
+    .footer{
+        margin-top:400px;
+        background-color: black;
+        height:100px;
+    }
+    .footer p{
+        color:white;
+        text-align: center;
+    }
+    .topnav .home{
+        font-family: algerian;
+        font-size:2em;
+        margin-right:10px;
+        
+    }
+    .main{
+        border:2px solid black;
+        border-radius:5px;
+        display:inline-block;
+        margin-left:450px;
+        padding:30px 28px;
+        height:550px;
+        font-size:22px;
+        width:40%;
+         background-color:hsl(0, 1%, 68%);
+    }
+    .main label,p{
+        font-style:italic;
+        font-weight:200;
+        color:black;
+    }
+    .main input{
+        border:1px solid black;
+        border-radius:5px;
+        height:40px;
+        margin-bottom:8px;
+        
+
+    }
+    .main .gender{
+        margin-bottom:-10px;
+    }
+    .main .i{
+        width:20em;
+    }
+    .main .submit{
+        width:200px;
+        border:1px solid black;
+    }
+    .main .submit:hover{
+        background-color: hsl(0, 1%, 41%);
+        transform:rotate(360deg);
+        transition:1s;
+         
+    }
+</style>
+<body>
+    <header> 
+        <nav class="topnav">
+            <ul>
+                <li><a href="main.html" class="home">KayBod</a></li>
+                 <li><a href="storybook.html" class="rest">Story books</a></li>
+                  <li><a href="motivationalbooks.html" class="rest">Motivational books</a></li>
+                   <li><a href="coursebooks.html" class="rest">Course books</a></li>
+                   <li><a href="signup.html" class="rest">SignUp</a></li>
+       
+            </ul>
+
+        </nav>
+
+    </header>
+    <br><br>
+    <main>
+        <div class="main">
+        <form>
+            <label for="firstname">First name:</label>
+            <input type="text" id="firstname" required class="i">
+            <br>
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" required class="i">
+            <br>
+            <label for="othernames">Other names:</label>
+            <input type="text" id="othernames" class="i">
+            <br>
+            <label for="dateofbirth">Date of birth:</label>
+            <input type="date" id="dateofbirth" required class="i">
+            <br>
+            <label for="male">Male:</label>
+            <input type="radio" id="male" name="gender" class="gender">
+            <br>
+            <label for="female">Female:</label>
+            <input type="radio" id="female" name="gender" class="gender">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required class="i">
+            <br>
+            <label for="createpassword">Create password:</label>
+            <input type="password" id="createpassword" required class="i">
+            <br>
+            <label for="confirmpassword">Confirm password:</label>
+            <input type="password" id="confirmpassword" required class="i">
+            <br>
+            <input type="submit" value="Submit" class="submit">
+            <input type="reset" class="submit">
+            <p>Already have an account?Login with Google:</p>
+        </form>
+        </div>
+        
+    </main>
+    <br><br>
+    <footer class="footer">
+        <p>&copy KayBod.All rights reserved</p>
+    </footer>
+    
+</body>
+</html>

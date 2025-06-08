@@ -1,0 +1,208 @@
+ 
+body{
+    background-color: #F7F4F4;
+}
+
+
+#nav1 ul{
+    list-style-type:none;
+
+}
+#nav1 li{
+    float:left;
+
+}
+#nav1 .rest{
+    
+    text-decoration: none;
+    color:#30382F;
+    font-size:20px;
+    padding:20px 15px;
+    margin-top:-10px;
+    font-weight:bolder;
+    align-items: center;
+    margin:12px auto;
+    /* border: 0.2px solid black; */
+    border-bottom:none;
+    border-radius:20px;
+}
+#nav1 .rest:hover{
+    color:rgb(197, 123, 14);
+    cursor:grab;
+    background-color: aquamarine;
+    
+}
+#nav1{
+    background-color:#FFFBDF;
+    height:60px;
+    margin-top:-15px;
+    margin-left: -8px;
+    margin-right:-8px;
+    
+   
+    text-align: center;
+    margin-bottom:18px;
+     
+}
+.home {
+ font-family: algerian;
+ font-size:3em;
+ text-decoration: none;
+ margin-right:10px;
+ 
+}
+.home:hover{
+    color:gray;
+}
+.signup{
+    text-decoration:none;
+    color:violet;
+    font-size: 20px;
+    font-style:italic;
+    
+}
+.signup img{
+    background-color: black;
+}
+
+ .input{
+    padding:20px 15px;
+    border:1px solid black;
+    border-radius:5px;
+    width:813px;
+    background-color:black;
+    color:white;
+    margin-left:450px;
+     
+     
+
+}
+.input:hover{
+    border:1px solid gold;
+    
+    
+}
+ 
+
+#nav2 ul{
+    list-style-type:none;
+
+}
+#nav2 li {
+    float:left;
+
+}
+#nav2 {
+    background-color:#30382F;
+    height:28px;
+    margin-top:-15px;
+    margin-left:-8px;
+    margin-right:-8px;
+    outline:2;
+
+
+}
+#nav2 a{
+    padding:20px 15px;
+    color:#FFFBDF;
+    text-decoration:none;
+    font-size:18px;
+    
+}
+#nav2 a:hover{
+    background-color: rgb(149, 22, 147);
+    height:1px;
+    display:block;
+    
+}
+.nav3{
+    background-image:url("Books pics/Computer security and cryptography.jpeg");
+    margin-left:-8px;
+    margin-right:-8px;
+    height:58px;
+
+}
+.gallery{
+    display:inline-block;
+    border:1px solid hsl(0, 2%, 78%);
+    margin:5px;
+    width:200px;
+    border-radius:3px;
+    height: 30%;
+
+    
+}
+.gallery .description{
+    padding:10px;
+    text-align:center;
+    background-color:hsl(0, 2%, 78%) ;
+}
+.gallery:hover{
+    border:1px solid hsl(0, 1%, 34%);
+}
+.gallery img{
+    width:100%;
+    height:auto;
+}
+.gallery a{
+   text-decoration:none;
+    cursor:pointer;
+    
+    
+}
+section{
+    float:right;
+}
+.row1{
+    border:1px solid white;
+    border-radius:3px;
+
+    
+    
+}
+aside{
+    float:left;
+    height:5px;
+    width:14%;
+    
+    
+}
+.aside h1{
+    background-color: hsla(240, 30%, 28%, 0.466);
+}
+
+.footer{
+    background-color: black;
+    height:100px;
+    margin-top: 1290px;
+    margin-left:-8px;
+    margin-right:-8px;
+    margin-bottom:-8px;
+}
+.footer p{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+  * {
+    box-sizing: border-box;
+    
+  }
+
+  .gallery .viewmore{
+    border:1px solid black;
+    border-radius:4px;
+    background-color: green;
+    color:white;
+  }
+  /* .galery .viewmore a{
+    color:white;
+  } */
+   .h{
+    font-style:italic;
+    font-weight:300;
+    margin-left:20px;
+   }
+    
